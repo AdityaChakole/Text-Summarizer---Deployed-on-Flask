@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Text Summarizer</title>
+</head>
+
+
+<body>
+
+<h2>Text Summarizer</h2>
+  <form method="POST">
+
+    <label for="url">Enter the URL</label>
+    <input type="text" size= "100" name="url" id="url">
+                            
+    <button type="submit" class="btn btn-primary btn-block btn-large" >Summarize</button>
+
+
+  </form>
+  
+    <br>
+    {{ summarized_text }}
+    
+  
+</body>
+</html>
