@@ -1,1 +1,1 @@
-# Text-Summarizer---Deployed-on-Flask
+# Built a Text Summarizer using Spacy following the tradional approach, further the results obtained from the model has been compared to already available model(Gensim Libray, BERT summarizer, GPT-2 Summarizer) using Rogue score
